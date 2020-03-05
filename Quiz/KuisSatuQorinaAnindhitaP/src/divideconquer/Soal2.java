@@ -11,13 +11,13 @@ package divideconquer;
  */
 public class Soal2 {
     private static void DevideConquer(int numDisc,char source,char destination,char spare){
-        if(numDisc == 2){
+        if(numDisc == 1){
             System.out.println("Pindah Gelang 1 Dari Tower "+source+" Ke Tower "+destination);
             return;
         }
-        DevideConquer(numDisc-2,source,spare,destination);
+        DevideConquer(numDisc-1,source,spare,destination);
         System.out.println("Pindah Gelang "+numDisc+" Dari Tower "+source+" Ke Tower "+destination);
-        DevideConquer(numDisc-2,spare,destination,source);
+        DevideConquer(numDisc-1,spare,destination,source);
     }
     public static void main(String[] args){
         int n=4;
