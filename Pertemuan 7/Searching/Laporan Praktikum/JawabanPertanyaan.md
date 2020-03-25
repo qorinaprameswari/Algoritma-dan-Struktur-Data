@@ -17,13 +17,13 @@ Program tersebut masih berjalan dengan benar karena pencarian nilai 30 tersebut 
 <img src = 'P2.PNG'>
 
 3. Output Awal:
-    10 40 30 50 70 20 100 90
-    =================================
-    Menggunakan Sequential Search
-    data : 30 ditemukan di indeks 2
-    =================================
-    Menggunakan Binary Search
-    data : 30 tidak ditemukan
+10 40 30 50 70 20 100 90
+=================================
+Menggunakan Sequential Search
+data : 30 ditemukan di indeks 2
+=================================
+Menggunakan Binary Search
+data : 30 tidak ditemukan
 
 Mofikasi:
 public int FindBinarySearch(int cari, int left, int right) {
@@ -51,14 +51,14 @@ public int FindBinarySearch(int cari, int left, int right) {
         } 
     }
 Output Setelah Modifikasi
-    isi Array:
-    100 90 80 70 60 50 40 30
-    =================================
-    Menggunakan Sequential Search
-    data : 30 ditemukan di indeks 7
-    ==================================
-    Menggunakan Binary Search
-    data : 30 ditemukan di indeks 7
+isi Array:
+100 90 80 70 60 50 40 30
+=================================
+Menggunakan Sequential Search
+data : 30 ditemukan di indeks 7
+==================================
+Menggunakan Binary Search
+data : 30 ditemukan di indeks 7
  Program masih dapat berjalan dengan hasil dari kode Binary Search tidak sesuai dengan kode program.Karena data belum diuurutkan dengaan metode Merge Sort,sehingga pencarian data tidak dapat dilakukan.
  
  4. Output:
