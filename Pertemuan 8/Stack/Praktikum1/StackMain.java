@@ -23,7 +23,10 @@ public class StackMain {
         tumpukan.pop();
         tumpukan.peek();
         tumpukan.print();
+        
+        tumpukan.push(17);
+        tumpukan.push(98);
+        tumpukan.print();
+
     }
-    
-    
 }
